@@ -34,6 +34,7 @@ function handleClick(event) {
     round();
   } else { if (hits < maxHits && firstHitTime) {
       $(event.target).addClass("miss");
+      hits = hits + 1;
       miss = miss + 1;
     }
   }
