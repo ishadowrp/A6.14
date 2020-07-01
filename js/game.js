@@ -36,6 +36,7 @@ function handleClick(event) {
       $(event.target).addClass("miss");
       hits = hits + 1;
       miss = miss + 1;
+      round();
     }
   }
 }
