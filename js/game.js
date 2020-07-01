@@ -23,6 +23,7 @@ function endGame() {
   $('.target').text("");
   $('.target').removeClass("target");
   $("#total-time-played").text(totalPlayedSeconds);
+  $("#total-hit-target").text(hits-miss);
   $("#total-miss").text(miss);
   $("#win-message").removeClass("d-none");
 }
